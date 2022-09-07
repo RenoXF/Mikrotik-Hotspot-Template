@@ -1,0 +1,55 @@
+
+.login{
+    font-family:arial;
+    padding:10px 0 0 0;
+    margin-top:50px;
+    background-image: url("bg.png");
+    background-repeat: repeat-x;
+    background-attachment: absolute;
+    background-color: #EB7835;
+    min-width: 300px;
+}
+    
+.login .logo{
+        display:block;
+        margin:0 auto 30px}
+        
+.login a,.login a:visited{
+    text-decoration:underline;
+    color:inherit}
+    
+ul.notice{margin:30px auto;width:300px;text-align:center;list-style-position:inside;font-size:12px;padding:20px 30px;border-radius:3px}
+
+ul.notice.errors{background-color:#fff4f4;border:1px solid #f50909;color:#f50909}
+
+ul.notice.success{background-color:#d7eacd;border:1px solid #6fae4f;color:#6fae4f}
+
+ul.notice li{padding:5px 0}.vertical-form{margin:0 auto}
+
+.vertical-form legend{width:100%;font-size:18px;color: #fff;font-weight:500;text-align:center;margin:0 0 30px 0}
+
+.vertical-form input[type='text'],.vertical-form input[type='password'],
+
+.vertical-form input[type='number']{border:1px #455A64 solid;color:#c1c1c1;background-color:#EDE7F6;height:50px;font-size:14px}
+
+.vertical-form input[type='text'],
+
+.vertical-form input[type='password'],
+
+.vertical-form input[type='submit'],
+
+.vertical-form input[type='number']{display:block;margin:5px auto;width:290px;text-align:center;border-radius:10px;color:#263238;outline:none;font-family:inherit}
+
+.vertical-form input[type='submit']{-webkit-appearance:none;color:#fff;background:#0000009d;border:none;border-radius: 10px;height:57px;width:292px;font-size:18px;font-weight:400;outline:0;cursor:pointer; position: relative;top:10px;}
+
+.vertical-form input:hover[type='submit']{background-color:#007fe0a0;-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}
+
+.vertical-form .footer{text-align:center}
+
+.vertical-form .footer p:first-child{color:#f6f6f6}
+
+.vertical-form .footer a:first-child{border-bottom:solid 1px #ccc;text-decoration:none}
+
+.vertical-form .footer p:nth-child(2) a{border-bottom:solid 1px #000} @media (max-width:768px){.login{padding:10px 0 0 0}}
+
+.footer{position: relative; top:40px;}
